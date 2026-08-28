@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100" role="img" aria-label="Light mode toggle, thumb on the right">
+  <defs>
+    <linearGradient id="dayBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6a3b8"/>
+      <stop offset="45%" stop-color="#e8748a"/>
+      <stop offset="100%" stop-color="#c94d69"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff9d0"/>
+      <stop offset="60%" stop-color="#fff176"/>
+      <stop offset="100%" stop-color="#ffd54f"/>
+    </radialGradient>
+    <radialGradient id="thumb" cx="0.35" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#2a2a3a"/>
+      <stop offset="100%" stop-color="#14141a"/>
+    </radialGradient>
+  </defs>
+  <!-- capsule track -->
+  <rect x="5" y="5" width="190" height="90" rx="45" ry="45" fill="url(#dayBg)" stroke="#1a1a24" stroke-width="3"/>
+  <!-- clouds -->
+  <ellipse cx="60" cy="34" rx="16" ry="7" fill="#fff" opacity="0.85"/>
+  <ellipse cx="74" cy="30" rx="12" ry="6" fill="#fff" opacity="0.7"/>
+  <ellipse cx="110" cy="28" rx="14" ry="6" fill="#fff" opacity="0.6"/>
+  <ellipse cx="124" cy="32" rx="10" ry="5" fill="#fff" opacity="0.45"/>
+  <!-- sun -->
+  <circle cx="150" cy="50" r="18" fill="url(#sun)"/>
+  <!-- mountains -->
+  <path d="M10,68 L44,54 L68,68 L100,50 L130,68 L162,54 L190,68 L190,90 L10,90 Z" fill="#c94d69"/>
+  <path d="M30,68 L60,58 L88,68 L118,56 L148,68 L178,58 L178,90 L30,90 Z" fill="#a83f52" opacity="0.6"/>
+  <!-- thumb on right -->
+  <circle cx="155" cy="50" r="29" fill="url(#thumb)"/>
+  <circle cx="155" cy="50" r="28" fill="none" stroke="#3a3a52" stroke-width="1.5"/>
+</svg>

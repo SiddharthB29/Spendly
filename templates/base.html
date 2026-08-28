@@ -21,6 +21,11 @@
             <div class="nav-links">
                 <a href="{{ url_for('login') }}">Sign in</a>
                 <a href="{{ url_for('register') }}" class="nav-cta">Get started</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark mode" title="Toggle theme"
+                    data-img-light="{{ url_for('static', filename='img/day-toggle.svg') }}"
+                    data-img-dark="{{ url_for('static', filename='img/night-toggle.svg') }}">
+                    <img class="theme-thumb" id="theme-thumb" src="{{ url_for('static', filename='img/day-toggle.svg') }}" alt="" width="200" height="100">
+                </button>
             </div>
         </div>
     </nav>
